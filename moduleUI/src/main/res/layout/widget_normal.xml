@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llInitTime"
+    style="@style/LinearHMM"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btnTime"
+        style="@style/Button1"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtTime"
+        style="@style/TextView1"
+        android:text="00:00"
+        />
+
+</LinearLayout>

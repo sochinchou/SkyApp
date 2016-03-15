@@ -1,6 +1,7 @@
 package com.sky.modulefragment;
 
 import android.app.Activity;
+import android.app.DialogFragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
@@ -56,5 +57,10 @@ public class MainActivity extends Activity {
         mFragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
         mFragmentTransaction.addToBackStack(null);
         mFragmentTransaction.commit();
+    }
+
+    public void onBtn5(View view){
+        DialogFragment fragment = MyDialogFragment.newInstance("Dialog");
+        fragment.show(getFragmentManager(), "Dialog");
     }
 }

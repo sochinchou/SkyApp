@@ -16,6 +16,41 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--|||||||||| AppWidgetProvider ||||||||||-->
+        <receiver android:name=".MyAppWidgetNormal" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_normal" />
+        </receiver>
+
+        <activity android:name=".MyAppWidgetConfigure">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name=".WidgetServiceNormal"/>
+
+        <receiver android:name=".CalendarWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_multi" />
+        </receiver>
+
+        <service
+            android:name=".CalendarRemoteService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false" >
+        </service>
+
+        <provider android:name=".CalendarContentProvider"
+            android:exported="true"
+            android:authorities="com.skyworthauto.calendar.provider"/>
     </application>
 
 </manifest>

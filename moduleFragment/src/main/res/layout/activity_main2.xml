@@ -26,6 +26,12 @@
         android:layout_height="50dp"
         android:onClick="onBtn4"
         android:text="Remove Fragment2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="onBtn5"
+        android:text="Dialog"/>
+
 
     <FrameLayout
         android:id="@+id/fragment_container"
