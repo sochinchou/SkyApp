@@ -1,1 +1,1 @@
-include ':app', ':moduleFragment', ':moduleUI', ':moduleMedia'
+include ':app', ':moduleFragment', ':moduleUI'

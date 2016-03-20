@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtWidgetList"
+    style="@style/TextView1"
+    android:padding="2dp"
+    android:gravity="center_vertical"
+    android:singleLine="true"
+    android:ellipsize="marquee"
+    />
