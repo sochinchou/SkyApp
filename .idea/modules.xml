@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SkyApp.iml" filepath="$PROJECT_DIR$/SkyApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/moduleFragment/moduleFragment.iml" filepath="$PROJECT_DIR$/moduleFragment/moduleFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleMedia/moduleMedia.iml" filepath="$PROJECT_DIR$/moduleMedia/moduleMedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/moduleUI/moduleUI.iml" filepath="$PROJECT_DIR$/moduleUI/moduleUI.iml" />
     </modules>
   </component>
